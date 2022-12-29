@@ -1,0 +1,159 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Index.master.cs" Inherits="ClinicaInacapp.Index" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css"/>
+    <link  rel="stylesheet" href="MasterEstilo/EstiloMaster.css"/>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <link href="css/SobreNosotros.css" rel="stylesheet" type="text/css">
+</head>
+<body><!-- Navbar -->
+<nav  data-mdb-toggle="animation" class="navbar navbar-expand-lg navbar-light bg-light fade-out-right">
+  <!-- Container wrapper -->
+  <div class="container">
+    <!-- Navbar brand -->
+    <a class="navbar-brand me-2" href="https://mdbgo.com/">
+      <img
+        src="css/LogoGet.PNG"
+        height="60"
+        alt="MDB Logo"
+        loading="lazy"
+        style="margin-top: -1px;"
+      />
+    </a>
+
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarButtonsExample"
+      aria-controls="navbarButtonsExample"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarButtonsExample">
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="home.aspx">Inicio</a>
+        </li>
+         <li class="nav-item">
+            <a class="nav-link" href="SobreNosotros.aspx">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="listadoMedicos.aspx">Medicos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="AgendarHora.aspx">Agendar Hora</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+
+      <div class="d-flex align-items-center">
+        <button type="button" class="btn btn-link px-3 me-2">
+          <a class="nav-link" href="login.aspx">Entrar</a>
+        </button>
+        <button type="button" style="background-color:cornflowerblue;" class="btn btn-primary me-3">
+          <a  style="color:white;" href="registrarse.aspx">Registrarse</a>
+        </button>
+      </div>
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+    <form id="form1" runat="server" style="
+        padding-top:0px;
+        
+        ">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+        <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+
+<!-- Footer -->
+<footer class=" text-center text-white fade-in"  style="background-color:#216691;">
+  <!-- Grid container -->
+  <div class="container p-4">
+
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="https://www.facebook.com/" role="button"><i class="fab fa-facebook-f"></i></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="https://twitter.com/?lang=es" role="button"><i class="fab fa-twitter"></i></a>
+
+      <!-- Google -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="https://mail.google.com/mail/u/0/#inbox" role="button"><i class="fab fa-google"></i></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="https://www.instagram.com/n4zh.0/" role="button"><i class="fab fa-instagram"></i></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="https://www.linkedin.com/in/brakmel-smith-2ab428241/" role="button"><i class="fab fa-linkedin-in"></i></a>
+      <!-- Github -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="https://github.com/Brakmel" role="button"><i class="fab fa-github"></i></a>
+    </section>
+    <!-- Section: Social media -->
+
+
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Siempre vamos a querer lo mejor para cada uno de nuestros usuarios, por eso mismo comunicate con nosotros, haz click en los globitos de redes sociales y mandanos un mensaje,
+          contestaremos a lo más pronto posible!, buscanos como: "GetHourNow!", te esperamos, un fuerte abrazo!
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</body>
+</html>
+

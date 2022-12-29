@@ -1,0 +1,163 @@
+﻿body {
+    margin: 0%;
+    background-image: url(../img/pexels-karolina-grabowska-4197564.jpg);
+}
+
+h1 {
+    font-size: 50px;
+    color: skyblue;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 30px;
+}
+
+main {
+    width: 100%;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulario {
+    background-color: #a1a4a6d4;
+    width: 50%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.nombre_apellido {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rut {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.email {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.contrasena {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.foto_carnet {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.funcion_en_clinica {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.submit {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*Inputs*/
+input {
+    text-align: center;
+    border-radius: 10px;
+}
+
+    input:hover {
+        background-color: aquamarine;
+        color: black;
+        cursor: pointer;
+    }
+
+#user {
+    background-color: azure;
+    width: 50%;
+    margin: 10px;
+}
+
+#rut {
+    background-color: azure;
+    width: 37%;
+    margin: 10px;
+}
+
+#email {
+    background-color: azure;
+    width: 35%;
+    margin: 10px;
+}
+
+#pass {
+    background-color: azure;
+    width: 27%;
+    margin: 10px;
+}
+
+#funcion {
+    background-color: azure;
+    width: 35%;
+    margin: 10px;
+}
+
+#img {
+    background-color: azure;
+    width: 50%;
+    margin: 10px;
+}
+
+#registrarse {
+    background-color: azure;
+    width: 35%;
+    margin: 10px;
+}
+
+.fa-solid {
+    color: skyblue;
+    font-size: 100px;
+}
